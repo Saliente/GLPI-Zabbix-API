@@ -1,0 +1,27 @@
+{
+  "auth":
+  {
+    "glpi_user": "glpi:glpi",
+    "glpi_app_token": "",
+    "glpi_status": "Monitored",
+    "zabbix_authorization": ["Admin", "zabbix"],
+    "zabbix_snmp_name": "SNMP"
+  },
+  "template":
+  {
+    "VM": 10523,
+    "BareMetal": 10523,
+    "XCP-Hypervisor": 10528,
+    "VMware-Hypervisor": 10175
+  },
+  "sites":
+  {
+    "glpi": "https://glpi.saliente.me",
+    "zabbix": "http://zbx.saliente.me/api_jsonrpc.php"
+  },
+  "groups":
+  {
+    "Root Entity": 1,
+    "Saliente": 10
+  }
+}
